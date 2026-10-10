@@ -99,8 +99,8 @@ container.Convert.Activated:Connect(function()
 	local tabWidth = 1
 	local tableStrings = {
 		"{",
-		`	Name = "{selected.Name}"`,
-		`	Looped = {selected.Loop}`,
+		`	Name = "{selected.Name}",`,
+		`	Looped = {selected.Loop},`,
 	}
 	local index = 4
 	for i, element in keyCollection do
